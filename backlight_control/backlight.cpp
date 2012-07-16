@@ -30,7 +30,7 @@ void parseconfig(const char * filename) {
 
 int main(int argc, char * argv[]) {
   
-  parseconfig("backlight_control.cfg");
+  parseconfig("/usr/share/backlight_control.cfg");
   
   bool gflag = false;
   bool sflag = false;
