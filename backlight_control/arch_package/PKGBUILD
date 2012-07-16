@@ -6,10 +6,10 @@ pkgdesc="Simple xbacklight replacement program; works in tty as well."
 arch=(i686 x86_64)
 url=""
 license=('GPL')
-groups=()
+groups=(system)
 depends=(libconfig)
 install=.install
-source=($pkgname.tar)
+source=(https://github.com/sapristi/misc/raw/master/backlight_control/arch_package/$pkgname.tar)
 md5sums=('bd8202024623d999389dea8dedaed307')
 
 #generate with 'makepkg -g'
