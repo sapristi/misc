@@ -31,16 +31,19 @@ string backlight_path;
 
  // read config file using libconfig
 void parseconfig(const char * filename) {
-	Config config;
-	config.readFile(filename);
 
-	config.lookupValue("backlight_path", backlight_path);
+  Config config;
+  config.readFile(filename);
+  
+  config.lookupValue("backlight_path", backlight_path);
 }
 
 
 int main(int argc, char * argv[]) {
   
   parseconfig("/usr/share/backlight-control.cfg");
+  
+  
   
   bool gflag = false;
   bool sflag = false;

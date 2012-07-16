@@ -1,0 +1,2 @@
+backlight_path = "/sys/class/backlight/intel_backlight/"
+aa
