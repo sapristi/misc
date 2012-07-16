@@ -1,3 +1,13 @@
+/****************************************************
+
+Program intended as xbacklight replacement
+Modifies values in /sys/class/backlight/
+Feel free to do whatever you want with it
+
+xbacklight.cpp v0.1
+
+ ****************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
