@@ -4,13 +4,13 @@ pkgver=0.1
 pkgrel=1
 pkgdesc="Simple xbacklight replacement program; works in tty as well."
 arch=(i686 x86_64)
-url=""
+url=("https://aur.archlinux.org/packages.php?ID=60908")
 license=('GPL')
 groups=(system)
 depends=(libconfig)
-install=.install
-source=(https://github.com/sapristi/misc/raw/master/backlight_control/arch_package/$pkgname.tar)
-md5sums=('bd8202024623d999389dea8dedaed307')
+install=backlight-control.install
+source=("https://github.com/sapristi/misc/raw/master/backlight_control/arch_package/$pkgname.tar")
+md5sums=('e3826f5bfa41febd73fbed6a0288d39e')
 
 #generate with 'makepkg -g'
 
