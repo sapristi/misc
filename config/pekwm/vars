@@ -1,0 +1,8 @@
+$TERM = "lilyterm -T Terminal"
+$_PEKWM_SCRIPT_PATH = "/usr/share/pekwm/scripts"
+$Web_Browser = "firefox"
+$Mail_Client = "thunderbird"
+$File = "thunar"
+$Editor = "emacsclient -c"
+
+
